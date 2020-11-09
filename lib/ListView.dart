@@ -35,7 +35,7 @@ class ListState extends State<HomeWidget>{
             child: ListTile(
               leading: const Icon(Icons.flight_land),
               title: Text('$index'),
-              subtitle: Text('うんこリスト'),
+              subtitle: Text('うんこリスト'), // ブリブリ
               onTap: (){},
             ));},
         itemCount: ListItem.length,
